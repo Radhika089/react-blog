@@ -1,17 +1,57 @@
-<<<<<<< HEAD
-# React + Vite
+React Blog 📝
+A React-based blog application built as part of my learning journey. This project helped me practice component-based architecture, routing, API integration, custom hooks, and styling with Tailwind CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
 
-Currently, two official plugins are available:
+🧱 Component-based file structure
+🔗 React Router for navigation
+⚙️ Custom hook for fetching single blog
+🎨 Tailwind CSS for fast and responsive styling
+🌀 Shimmer effect while loading
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+React
+Vite
+React Router DOM
+Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# react-blog
-A React-based blog application to practice component-based architecture, routing, and state management. Built as part of my React learning journey.
->>>>>>> f5f496a4fd0f940988b1478395cb01342f97da39
+📦 Getting Started
+
+npm install
+npm run dev
+
+📁 Folder Structure
+
+src/
+├── API/
+│   └── constant.js
+│
+├── Hooks/
+│   └── SingleBlog.js
+│
+├── Pages/
+│   ├── About.jsx
+│   ├── Blogs.jsx
+│   ├── Contact.jsx
+│   └── Home.jsx
+│
+├── components/
+│   ├── BlogCard.jsx
+│   ├── BlogDetails.jsx
+│   ├── BlogPage.jsx
+│   ├── Footer.jsx
+│   ├── HeroSection.jsx
+│   ├── LoginModal.jsx
+│   ├── Navbar.jsx
+│   ├── Shimmer.jsx
+│   └── SideBar.jsx
+│
+├── App.jsx
+├── main.jsx
+├── App.css
+└── index.css
+
+🌐 Live Demo
+🚀 Check it out here: Live on Netlify
+https://codeblogify.netlify.app/
