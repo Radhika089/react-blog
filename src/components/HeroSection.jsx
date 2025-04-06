@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
           {/* button */}
           <Link
-            to={"/"}
+            to={"/blog"}
             className="mt-6 px-6 py-3.5 bg-gradient-to-r from-pink-600 to-orange-600 text-lg text-white rounded-full transition-all duration-300 hover:scale-105 hover:bg-orange-600 border-white shadow-lg hover:shadow-xl font-semibold"
           >
             Read Blogs
