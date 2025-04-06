@@ -8,10 +8,12 @@ import About from "./Pages/About";
 import Home from "./Pages/Home";
 import BlogDetails from "./components/BlogDetails";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <div>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route
