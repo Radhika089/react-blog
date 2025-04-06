@@ -1,28 +1,48 @@
-React Blog 📝
-A React-based blog application built as part of my learning journey. This project helped me practice component-based architecture, routing, API integration, custom hooks, and styling with Tailwind CSS.
+# React Blog 📜
 
-🚀 Features
+A **React-based blog application** built as part of my learning journey. This project helped me practice:
 
-🧱 Component-based file structure
-🔗 React Router for navigation
-⚙️ Custom hook for fetching single blog
-🎨 Tailwind CSS for fast and responsive styling
-🌀 Shimmer effect while loading
+- Component-based architecture  
+- Routing with React Router  
+- API integration  
+- Custom hooks  
+- Styling with Tailwind CSS  
 
-🛠️ Tech Stack
+---
 
-React
-Vite
-React Router DOM
-Tailwind CSS
+## 🚀 Features
 
-📦 Getting Started
+- 🧱 Component-based file structure  
+- 🔗 React Router for navigation  
+- ⚙️ Custom hook for fetching single blog  
+- 🎨 Tailwind CSS for fast and responsive styling  
+- 🌀 Shimmer effect while loading  
 
+---
+
+## 🛠️ Tech Stack
+
+- React  
+- Vite  
+- React Router DOM  
+- Tailwind CSS  
+
+---
+
+## 📦 Getting Started
+
+To run this project locally:
+
+```
 npm install
 npm run dev
+```
 
-📁 Folder Structure
+---
 
+## 📁 Folder Structure
+
+```
 src/
 ├── API/
 │   └── constant.js
@@ -51,7 +71,12 @@ src/
 ├── main.jsx
 ├── App.css
 └── index.css
+```
 
-🌐 Live Demo
-🚀 Check it out here: Live on Netlify
-https://codeblogify.netlify.app/
+---
+
+## 🌐 Live Demo
+
+🚀 **Check it out live** on Netlify:  
+🔗 [https://codeblogify.netlify.app/](https://codeblogify.netlify.app/)
+
